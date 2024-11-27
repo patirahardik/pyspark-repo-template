@@ -1,0 +1,1 @@
+# Folder to contains configuration of python projects
