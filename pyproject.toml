@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pyspark-repo-template"
+version = "0.1.0"
+description = "testing will be deleted"
+authors = ["y"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
