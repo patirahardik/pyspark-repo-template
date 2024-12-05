@@ -3,7 +3,8 @@ FROM bitnami/spark:3.5.1 as spark-gateway
 USER root
 
 # Update package list and install git
-RUN apt-get update && apt-get install -y git
+RUN apt-get update && apt-get install -y git make
+RUN apt-get install --reinstall ncurses-bin
 
 WORKDIR /workspaces
 
